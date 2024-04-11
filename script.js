@@ -37,8 +37,22 @@ const homeAnimation = ()=>{
             ease:  Power4
       }, "b")
 }
+const partnerSectionAnimation = ()=>{
+      gsap.to(".slide", {
+            scrollTrigger: {
+                  trigger: ".partner-section-container",
+                  start: "top top",
+                  end: "bottom bottom",
+                  markers: false,
+                  scrub: 2
+            },
+            xPercent: -300,
+            ease:  Power4
+      })
+}
 
 
 
 
 homeAnimation();
+partnerSectionAnimation();
