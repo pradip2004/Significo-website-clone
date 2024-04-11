@@ -4,6 +4,7 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
       <script src="https://cdn.tailwindcss.com"></script>
       <link rel="stylesheet" href="style.css">
@@ -12,168 +13,197 @@
 
 <body theme="black">
       <div class="main w-full">
-            <div class="home-section w-full h-screen relative">
-                  <div class=" hidden home-section-video w-full h-screen absolute top-0 left-0 overflow-hidden z-[3]">
-                        <video src="./assets/home-section-video.mp4" autoplay loop muted
-                              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></video>
-                  </div>
-                  <div class="home-section-text section w-full h-screen relative overflow-hidden">
+            <div class="home-section w-full h-[200vh] relative">
+                  <div class="w-full sticky top-0 left-0">
+                        <div style="--clip: 100%"
+                              class="home-section-video w-full h-screen absolute top-0 left-0 overflow-hidden z-[3]">
+                              <video src="./assets/home-section-video.mp4" autoplay loop muted
+                                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></video>
+                        </div>
+                        <div class="home-section-text section w-full h-screen relative overflow-hidden">
+                              <div
+                                    class="home-section-text-heading absolute top-[7%] left-1/2 -translate-x-1/2 text-center w-[20%]">
+                                    <h1 class="text-xl font-semibold">Crafting a new paradigm of
+                                          healthcare, one that is</h1>
+                              </div>
+                              <div
+                                    class="animated-slide-heading w-[90%] scale-[1.3] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                                    <div
+                                          class="text-rows text-rows-left w-full py-2 flex items-center gap-10 -translate-x-1/3 whitespace-nowrap">
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
+                                          </div>
+                                    </div>
+                                    <div
+                                          class="text-rows w-full py-2 flex items-center gap-10 -translate-x-1/2 whitespace-nowrap">
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
+                                          </div>
+
+                                    </div>
+                                    <div
+                                          class="text-rows text-rows-left w-full py-2 flex items-center gap-10 -translate-x-2/3 whitespace-nowrap">
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">empathetic</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">useful</h1>
+                                                <div
+                                                      class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
+                                                </div>
+                                          </div>
+                                          <div class="text-row-elem flex items-center gap-10">
+                                                <h1 class="text-6xl font-semibold">intuitive</h1>
+                                                <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
+                                          </div>
+
+                                    </div>
+
+                              </div>
+                        </div>
                         <div
-                              class="home-section-text-heading absolute top-[7%] left-1/2 -translate-x-1/2 text-center w-[20%]">
-                              <h1 class="text-xl font-semibold">Crafting a new paradigm of
-                                    healthcare, one that is</h1>
-                        </div>
-                        <div class="w-[90%] scale-[1.3] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                              <div
-                                    class="text-rows w-full py-2 flex items-center gap-10 -translate-x-1/3 whitespace-nowrap">
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
-                                    </div>
-                              </div>
-                              <div
-                                    class="text-rows w-full py-2 flex items-center gap-10 -translate-x-1/2 whitespace-nowrap">
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
-                                    </div>
-
-                              </div>
-                              <div
-                                    class="text-rows w-full py-2 flex items-center gap-10 -translate-x-2/3 whitespace-nowrap">
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">empathetic</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">useful</h1>
-                                          <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500">
-                                          </div>
-                                    </div>
-                                    <div class="text-row-elem flex items-center gap-10">
-                                          <h1 class="text-6xl font-semibold">intuitive</h1>
-                                          <!-- <div class="text-row-img w-[2.5rem] h-[2.5rem] rounded-full bg-yellow-500"></div> -->
-                                    </div>
-
-                              </div>
-
+                              class="home-section-bottom-text section absolute bottom-[3%] left-5 w-44 text-sm font-semibold z-[4]">
+                              We build big ideas. Software. Apps. Tools. For real people. Real lives.
                         </div>
                   </div>
-                  <div
-                        class="home-section-bottom-text section absolute bottom-[3%] left-5 w-44 text-sm font-semibold z-[4]">
-                        We build big ideas. Software. Apps. Tools. For real people. Real lives.
-                  </div>
+
             </div>
 
             <!-- Solution Section  -->
@@ -195,7 +225,7 @@
                               </div>
                         </div>
                   </div>
-                  <div class="solutions-section-right w-1/2 py-10 bg-red-700">
+                  <div class="solutions-section-right w-1/2 py-10 ">
                         <p class="text-3xl">
                               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis facere ullam libero!
                               Pariatur consequatur ab soluta facilis delectus cum animi rerum dolorem, maiores
@@ -504,14 +534,15 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="capsule mt-10 -rotate-[10deg] p-8 flex flex-col items-center  rounded-full border-2">
+                        <div
+                              class="capsule mt-10 -rotate-[10deg] p-8 flex flex-col items-center  rounded-full border-2">
                               <div class="capsule-btn w-fit my-12 px-4 py-2  rounded-full bg-purple-300">
                                     <div class="masker overflow-hidden">
                                           <span class="inline-block">Thought Leadership</span>
                                     </div>
                               </div>
                               <div class="capsule-text text-center mt-10">
-                                    
+
                                     <h3 class="font-semibold text-2xl">Equity in Tech: An </h3>
                                     <h3 class="font-semibold text-2xl">International Women’s </h3>
                                     <h3 class="font-semibold text-2xl">
@@ -543,13 +574,28 @@
                               designs can make health technology more
                               empowering.</p>
                         <div class="circle w-[10rem] h-[10rem] relative">
-                              <img src="./assets/circle.svg" alt="" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                              <div class="inner-circle w-[7.5rem] h-[7.5rem] border-2 border-black rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+                              <img src="./assets/circle.svg" alt=""
+                                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                              <div
+                                    class="inner-circle w-[7.5rem] h-[7.5rem] border-2 border-black rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                              </div>
                         </div>
                   </div>
             </div>
       </div>
+      <!--  Gsap is needed for Basic Effects -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+      <!-- Scroll Trigger is needed for Scroll Effects -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+      <!-- Three.js is needed for 3d Effects -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+      <!-- ControlKit is needed for Debug Panel -->
+      <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
       <script src="script.js"></script>
 </body>
 

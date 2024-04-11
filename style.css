@@ -10,3 +10,8 @@ body[theme="black"]{
 body[theme="black"] .section{
       color: #fff;
 }
+
+
+.home-section-video{
+      clip-path: circle(var(--clip) at 50% 50%);
+}
