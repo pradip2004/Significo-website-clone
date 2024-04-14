@@ -72,9 +72,43 @@ const teamAnimation = () => {
                   })
             })
 }
+const teamDetailsAnimation = (className, triggerClass) => {
+      let clutter = ""
+      document.querySelector(className)
+            .textContent.split("").forEach(function (e) {
+                  if (e === " ") {
+                        clutter += `<span>&nbsp</span>`
+                  }
+                  clutter += `<span>${e}</span>`
+            })
 
+      document.querySelector(className)
+            .innerHTML = clutter
+      gsap.set(`${className} span`, {opacity: .2})
+      gsap.to(`${className} span`, {
+            scrollTrigger: {
+                  trigger: triggerClass,
+                  markers: false,
+                  scrub: 1.5,
+                  start: "top 60%",
+                  end: "top 20%"
+            },
+            opacity: 1,
+            stagger: 0.03,
+            ease: Power4
+      })
 
+}
+
+gsap.to(".rotate-svg", {
+      rotate: 360,
+      ease: "none",
+      duration: 10,
+      repeat: -1,
+})
 
 homeAnimation();
 partnerSectionAnimation();
 teamAnimation()
+teamDetailsAnimation(".team-details-text-left", ".team-details-left")
+teamDetailsAnimation(".team-details-text-right", ".team-details-right")
